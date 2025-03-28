@@ -24,11 +24,26 @@ const targetElement = document.querySelector("html");
 // Thêm sự kiện click vào nút
 scrollTopBtn.addEventListener("click", function () {
   // Cuộn trang về đầu
-  console.log('click');
-  
+  console.log("click");
+
   window.scrollTo({
     top: targetElement.offsetTop,
-    
+
     behavior: "smooth", // Cuộn trang mượt mà
   });
 });
+
+// // Nav menu mobile
+// const toggleBtn = document.querySelector(".mobile-nav");
+// const content = document.querySelector(".inner-nav.desktop-nav");
+
+// toggleBtn.addEventListener("click", function () {
+//   toggleBtn.classList.toggle("active");
+//   // Kiểm tra nếu max-height hiện tại là 0 (tức là không hiển thị)
+//   if (content.style.maxHeight === "0px") {
+//     content.style.maxHeight = "calc(-60px + 100vh)"; // Mở phần tử, thay đổi max-height
+//   } else {
+//     content.style.maxHeight = "0"; // Đóng phần tử, set max-height về 0
+
+//   }
+// });

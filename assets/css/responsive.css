@@ -4,11 +4,11 @@
     padding: 0 30px;
   }
 
-  .inner-nav ul li {
+  .navbar-collapse ul li {
     margin: 0 16px;
   }
 
-  .inner-nav ul li .mn-sub li a {
+  .navbar-collapse ul li .mn-sub li a {
     padding: 10px 14px;
   }
 
@@ -35,15 +35,19 @@
 }
 
 @media only screen and (max-width: 1200px) {
-  .inner-nav ul {
+  .navbar-collapse ul {
     font-size: 16px;
   }
 
-  .nav-sub.inner-nav ul li {
+  .navbar-collapse ul li {
     margin: 0 12px !important;
   }
 
-  .inner-nav ul li .mn-sub li a {
+  .navbar-collapse ul li:first-child {
+    margin: 0 12px !important;
+  }
+
+  .navbar-collapse ul li .mn-sub li a {
     padding: 8px 10px;
     font-size: 14px;
   }
