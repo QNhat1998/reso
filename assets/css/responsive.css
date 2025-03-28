@@ -1,0 +1,174 @@
+@media only screen and (max-width: 1366px) {
+  .container {
+    max-width: var(--container-width);
+    padding: 0 30px;
+  }
+
+  .inner-nav ul li {
+    margin: 0 16px;
+  }
+
+  .inner-nav ul li .mn-sub li a {
+    padding: 10px 14px;
+  }
+
+  .hs-title-1 {
+    font-size: calc(1.108rem + 3.68vw) !important;
+  }
+
+  .section-title {
+    font-size: calc(1.582rem + 2.25vw) !important;
+  }
+
+  .section-descr {
+    font-size: 19px !important;
+  }
+
+  .big-icon-link,
+  .big-icon-link-gradient {
+    font-size: calc(1.653rem + 1.58vw);
+  }
+
+  .testimonials-text p {
+    font-size: calc(1.214rem + 0.33vw);
+  }
+}
+
+@media only screen and (max-width: 1200px) {
+  .inner-nav ul {
+    font-size: 16px;
+  }
+
+  .nav-sub.inner-nav ul li {
+    margin: 0 12px !important;
+  }
+
+  .inner-nav ul li .mn-sub li a {
+    padding: 8px 10px;
+    font-size: 14px;
+  }
+
+  .number-title {
+    font-size: calc(2.273rem + 3.64vw);
+  }
+}
+
+@media only screen and (max-width: 1199px) {
+  main {
+    overflow: hidden;
+  }
+}
+
+@media only screen and (max-width: 1024px) {
+  .mn-sub > li:first-child > a {
+    border-radius: 0;
+  }
+
+  .page-section {
+    padding-top: 120px;
+    padding-bottom: 120px;
+  }
+}
+
+@media only screen and (max-width: 991px) {
+  .pt-md-30 {
+    padding-bottom: 30px !important;
+  }
+
+  .pt-md-120 {
+    padding-bottom: 120px !important;
+  }
+
+  .pb-md-120 {
+    padding-top: 120px !important;
+  }
+
+  .mb-md-50 {
+    margin-bottom: 50px !important;
+  }
+
+  .mb-md-60 {
+    margin-bottom: 60px !important;
+  }
+
+  .works-grid.work-grid-gut-lg {
+    margin: -40px 0 0 -30px;
+  }
+
+  .works-grid.work-grid-gut-lg .work-item {
+    padding: 40px 0 0 30px;
+  }
+
+  .works-grid .work-item {
+    width: 49.9% !important;
+  }
+}
+
+@media only screen and (max-width: 767px) {
+  .mb-sm-30 {
+    margin-top: 30px !important;
+  }
+  .mb-sm-60 {
+    margin-bottom: 60px !important;
+  }
+  .mb-sm-50 {
+    margin-bottom: 50px !important;
+  }
+  .mb-sm-40 {
+    margin-bottom: 40px !important;
+  }
+  .mb-sm-20 {
+    margin-bottom: 20px !important;
+  }
+
+  .mb-sm-30 {
+    margin-bottom: 30px !important;
+  }
+
+  .pt-sm-40 {
+    padding-top: 40px !important;
+  }
+
+  .pb-sm-40 {
+    padding-bottom: 40px !important;
+  }
+
+  .pb-sm-80 {
+    padding-bottom: 80px !important;
+  }
+
+  .composition-7-image-1,
+  .composition-7-image-2,
+  .composition-7-image-3,
+  .composition-7-image-4 {
+    width: 46.5%;
+    margin-top: 30px;
+  }
+
+  .works-grid .work-item {
+    width: 100% !important;
+  }
+
+  .small-section {
+    padding-top: 50px;
+    padding-bottom: 50px;
+  }
+}
+
+@media only screen and (max-width: 575px) {
+  .pb-xs-50 {
+    padding-bottom: 50px !important;
+  }
+
+  .mb-xs-10 {
+    margin-bottom: 10px !important;
+  }
+
+  .mb-xs-30 {
+    margin-bottom: 30px !important;
+  }
+
+  .mb-xs-50 {
+    margin-bottom: 50px !important;
+  }
+}

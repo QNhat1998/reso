@@ -1,0 +1,170 @@
+:root {
+  --animate-duration: 1s;
+  --animate-delay: 1s;
+  --animate-repeat: 1;
+}
+
+.animated {
+  animation-duration: 1s;
+  animation-duration: var(--animate-duration);
+  animation-fill-mode: both;
+}
+
+.scaleOutIn {
+  animation-name: scaleOutIn;
+}
+
+.fadeInDown {
+  animation-name: fadeInUp;
+}
+
+.fadeInUp {
+  animation-name: fadeInUp;
+}
+
+.fadeIn {
+  animation-name: fadeIn;
+}
+
+.linesAminInLong {
+  animation-name: linesAnimInLong;
+}
+
+.fadeScaleIn {
+  animation-name: fadeScaleIn;
+}
+
+.tabAnimation {
+  animation-name: tabAnimation;
+}
+
+.animation-container {
+  display: inline-block;
+  text-align: center;
+}
+
+.animated-text {
+  font-size: 3rem;
+  font-weight: bold;
+}
+
+.animated-text span {
+  display: inline-block;
+  opacity: 0;
+  transform: translateY(30px);
+  animation: charAnimIn 0.6s forwards;
+}
+
+@keyframes charAnimIn {
+  0% {
+    opacity: 0;
+    transform: translateY(30px);
+  }
+  100% {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
+@keyframes linesAnimInLong {
+  0% {
+    opacity: 0;
+    transform: translateX(-40px);
+  }
+  60% {
+    opacity: 1;
+    transform: translateX(10px);
+  }
+  100% {
+    opacity: 1;
+    transform: translateX(0);
+  }
+}
+
+@keyframes scaleOutIn {
+  0% {
+    transform: scale(1.2); /* Thu nhỏ (scale out) */
+  }
+  100% {
+    transform: scale(1); /* Phóng to lại (scale in) */
+  }
+}
+
+@keyframes fadeInDown {
+  0% {
+    opacity: 0;
+    transform: translate3d(0, -37px, 0);
+  }
+
+  to {
+    opacity: 1;
+    transform: translateZ(0);
+  }
+}
+
+@keyframes fadeInUp {
+  0% {
+    opacity: 0;
+    transform: translate3d(0, 37px, 0);
+  }
+
+  to {
+    opacity: 1;
+    transform: translateZ(0);
+  }
+}
+
+@keyframes fadeScaleIn {
+  from {
+    opacity: 0;
+    transform: scale(0.8);
+  }
+  to {
+    opacity: 1;
+    transform: scale(1);
+  }
+}
+
+@keyframes tabAnimation {
+  0% {
+    transform: translateY(10px) scale(0.98);
+  }
+
+  to {
+    transform: translate(0) scale(1);
+  }
+}
+
+@keyframes fadeIn {
+  0% {
+    opacity: 0;
+  }
+
+  to {
+    opacity: 1;
+  }
+}
+
+.modal-video {
+  animation: modal-video 0.3s ease-out;
+}
+
+@keyframes modal-video {
+  0% {
+    opacity: 0;
+  }
+
+  to {
+    opacity: 1;
+  }
+}
+
+@keyframes modal-video-inner {
+  0% {
+    transform: translateY(100px);
+  }
+
+  to {
+    transform: translate(0);
+  }
+}
